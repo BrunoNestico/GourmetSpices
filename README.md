@@ -52,8 +52,7 @@ The website also includes an administrative section where administrators can:
    
 2. **Configure the database:**
 
-Set up your database with the necessary tables and relationships.
-Update the database connection settings in the project.
-Build and deploy:
+   Set up your database with the necessary tables and relationships.
+   Update the database connection settings in the project.
 
 Use your preferred IDE or build tools to compile and deploy the project.
