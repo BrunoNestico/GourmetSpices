@@ -57,8 +57,3 @@ Update the database connection settings in the project.
 Build and deploy:
 
 Use your preferred IDE or build tools to compile and deploy the project.
-
-## Conclusion
-This project demonstrates the development of a dynamic and responsive e-commerce website with a clear separation of concerns following the MVC pattern. The website provides robust functionality for both customers and administrators, ensuring a seamless shopping experience and efficient management of the product catalog and orders.
-
-For more details on the implementation and to view the code, please refer to the repository.
