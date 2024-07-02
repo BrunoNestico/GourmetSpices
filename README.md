@@ -48,7 +48,7 @@ The website also includes an administrative section where administrators can:
 ## Setup and Deployment
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/ecommerce-website.git
+   git clone https://github.com/BrunoNestico/GourmetSpices.git
    
 2. **Configure the database:**
 
