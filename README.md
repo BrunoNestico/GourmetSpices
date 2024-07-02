@@ -45,7 +45,7 @@ The website also includes an administrative section where administrators can:
 - `WebContent/css`: Contains CSS stylesheets.
 - `WebContent`: Contains JSP files.
 
-## Setup and Deployment
+## Setup
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/BrunoNestico/GourmetSpices.git
