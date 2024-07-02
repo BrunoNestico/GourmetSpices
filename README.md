@@ -18,18 +18,10 @@ The website also includes an administrative section where administrators can:
 
 ## Features
 
-### Customer Functionality
-- **Product Management:** Customers can add products to their cart, update quantities, remove products, and empty their cart.
-- **Order Management:** After confirming an order, the cart is emptied and the order is saved in the order history.
 - **Responsive Design:** The website is dynamic and responsive, providing a seamless experience across different devices.
 - **Form Validation:** Forms are validated using JavaScript and regular expressions to ensure correct data input.
 - **AJAX:** Used for asynchronous communication with the server to enhance user experience.
 - **Session Management:** Sessions are used to maintain the state of the cart.
-
-### Administrator Functionality
-- **Catalog Management:** Administrators can add, edit, view, and delete products.
-- **Order Viewing:** Administrators can view all orders, filterable by date range and customer.
-- **Authentication:** Access to the administrator pages is restricted and requires authentication.
 
 ## Technical Details
 
