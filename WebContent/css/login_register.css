@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E0D0C1;
+    color: #333; /* Testo principale */
+}
+
+main {
+    padding: 20px;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-container h3 {
+    color: #E07363;
+}
+
+.login-container form {
+    padding: 20px;
+}
+
+.login-container a {
+    color: white;
+}
+
+.login-container a:hover {
+    color: #E07363;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none; /* Rimuove il contorno predefinito */
+}
+
+button {
+    background-color: #E07363;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a.register-now {
+    color: #e74c3c;
+}
+
+a.login-now {
+    color: #e74c3c;
+}
+
+button:hover {
+    background-color: #E09777;
+}
+
+/* Stile per il campo di input con focus */
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #E07363;
+    box-shadow: 0 0 5px rgba(224, 115, 99, 0.5);
+}
+
+/* Stile per il campo di input con errore */
+input[type="text"].error,
+input[type="password"].error {
+    border-color: red;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+
+.error-messages {
+    color: red;
+    font-weight: bold;
+}
+
+.error-messages ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .login-container {
+        width: 80%;
+        padding: 15px;
+    }
+
+    button {
+        padding: 10px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    button {
+        padding: 8px;
+        width: 100%;
+    }
+}

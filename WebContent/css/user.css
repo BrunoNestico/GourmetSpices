@@ -1,0 +1,207 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E0D0C1;
+    color: #333;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-info, .purchase-history {
+    margin-bottom: 30px;
+}
+
+.user-info h2, .purchase-history h2 {
+    font-size: 26px;
+    color: #2c3e50;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.user-info p, .order-info p, .order-products li p {
+    font-size: 18px;
+    color: #7f8c8d;
+    margin: 8px 0;
+}
+
+.user-info p {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.user-info p:last-child {
+    border-bottom: none;
+}
+
+.logout-button {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.logout-button button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #E07363;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button button:hover {
+    background-color: #E09777;
+}
+
+.purchase-history .orders {
+    margin-top: 20px;
+}
+
+.order {
+    border: 1px solid #ecf0f1;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    transition: box-shadow 0.3s ease;
+}
+
+.order:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-info {
+    margin-bottom: 15px;
+}
+
+.order-products h3 {
+    font-size: 22px;
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+.order-products ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-products li {
+    padding: 12px;
+    border-bottom: 1px solid #ecf0f1;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.order-products li:hover {
+    background-color: #ecf0f1;
+}
+
+.order-products li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.no-orders, .error-message {
+    font-size: 18px;
+    color: #7f8c8d;
+    text-align: center;
+    margin: 30px 0;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    main {
+        max-width: 80%;
+        padding: 15px;
+    }
+
+    .user-info h2, .purchase-history h2 {
+        font-size: 24px;
+    }
+
+    .user-info p, .order-info p, .order-products li p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    main {
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .user-info h2, .purchase-history h2 {
+        font-size: 22px;
+    }
+
+    .user-info p, .order-info p, .order-products li p {
+        font-size: 16px;
+    }
+
+    .logout-button button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .purchase-history .orders {
+        margin-top: 15px;
+    }
+
+    .order {
+        padding: 15px;
+    }
+
+    .order-products h3 {
+        font-size: 20px;
+    }
+
+    .order-products li {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    .user-info h2, .purchase-history h2 {
+        font-size: 20px;
+    }
+
+    .user-info p, .order-info p, .order-products li p {
+        font-size: 15px;
+    }
+
+    .logout-button button {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .order {
+        padding: 10px;
+    }
+
+    .order-products h3 {
+        font-size: 18px;
+    }
+
+    .order-products li {
+        padding: 8px;
+    }
+}

@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E0D0C1;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.filter-section, .orders-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 800px;
+}
+
+.filter-section h2, .orders-section h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form label {
+    flex: 1 1 100%;
+    margin-bottom: 5px;
+}
+
+form input[type="date"],
+form input[type="text"] {
+    flex: 1 1 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form input[type="date"]:focus,
+form input[type="text"]:focus {
+    outline-color: #E07363;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #E07363;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #E09777;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+}
+
+.error-message-not-admin {
+    font-size: 18px;
+    color: #7f8c8d;
+    text-align: center;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    max-width: 400px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f8f8;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.orderRow ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.orderRow ul li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .filter-section, .orders-section {
+        margin: 20px 10px;
+        padding: 15px;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    form label,
+    form input[type="date"],
+    form input[type="text"],
+    form button {
+        flex: 1 1 100%;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .filter-section, .orders-section {
+        margin: 10px 5px;
+        padding: 10px;
+    }
+
+    form label,
+    form input[type="date"],
+    form input[type="text"],
+    form button {
+        flex: 1 1 100%;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    table, th, td {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
