@@ -3,6 +3,9 @@
 
 This repository contains the code for a university project developed for the TSW course. The project is an e-commerce website that allows users to purchase products online. The project was developed following the specifications provided by the professor.
 
+## Main developers
+Developed by [superfra01](https://github.com/superfra01) and [BrunoNestico](https://github.com/BrunoNestico).
+
 ## Project Overview
 
 The e-commerce website allows customers to:
